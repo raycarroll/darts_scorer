@@ -1,0 +1,45 @@
+name: darts_scorer
+description: A mobile darts scoring application with visual dartboard interface
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.0
+
+  # Database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # SVG support for dartboard graphics
+  flutter_svg: ^2.0.0
+
+  # Settings persistence
+  shared_preferences: ^2.2.0
+
+  # UUID generation
+  uuid: ^4.0.0
+
+  # Date formatting
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Testing
+  mockito: ^5.4.0
+  build_runner: ^2.4.0
+  sqflite_common_ffi: ^2.3.0
+
+  # Linting
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
